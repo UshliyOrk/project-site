@@ -1,21 +1,49 @@
 body {
 	background: black;
-} 
-div{
+} div{
 	font-size: 20px;
 	line-height: 10mm;
 	color: white;
-}
-h1 {
-	color: orange;
-}
-h3{
-	color: orange;
-}
+} h1 {color: orange;}
+h3{color: orange;}
 footer{
 	background: darkblue;
 	font-size: 30;
-}
-a{
-	color: orange;
+} a{color: orange;}
+form{
+	font-size: 25px;
+	color: white;
+} h2{color: orange;}
+red{color: red;}
+form.new_form {
+    width: 600px;
+    border: 1px solid red;
+    display: block;
+}form.new_form textarea {
+    width: 99%;
+    margin: 10px 0;
+    height: 100px;
+    resize: none;
+    text-indent: 20px;
+    padding: 12px 0;
+}form.new_form input[type="text"] {
+    width: 49%;
+    padding: 10px 0;
+    text-indent: 15px;
+}form.new_form input {
+    width: 49%;
+    padding: 10px 0;
+    text-indent: 15px;
+}form.new_form {
+    width: 600px;
+    border: 1px solid #cecece;
+    display: block;
+    height: 210px;
+    padding: 40px;     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);     margin: auto;
+}form.new_form input[type="submit"] {
+    float: right;
+}	rezult {
+    display: block;
+    color: white;
+    margin: 14px;
 }
